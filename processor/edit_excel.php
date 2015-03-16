@@ -28,7 +28,9 @@ $callTime = $callEndTime - $callStartTime;
 /* Write to file */
 //$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
 //$objWriter->save(str_replace('.php', '.xlsx', $dir.$file));
-
+echo $objPHPExcel->getActiveSheet()->getCell('B3')->getValue();
+echo "sdasd";
+echo $objPHPExcel->getActiveSheet()->getCell('J4')->getCalculatedValue();
 $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'HTML');
 $objWriter->save('php://output');
 ?>
