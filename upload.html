@@ -13,6 +13,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/login-form.css" rel="stylesheet">
     <link href="css/image-description.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -28,42 +30,67 @@
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container" style="margin-top:15px;margin-bottom:15px;color:white;">
-		<img src="img/pln-logo.jpg" width="50" height="50" ></img> &nbsp; Gallery Dokumentasi
+		Selamat Datang di MPO (Monitoring Progres Proyek) UPK PH 1 PLTA Upper Cisokan
       </div>
     </nav>
-
-    <div class="container">
-		<div style="margin-top:100px;">
-			<h3>Upload Dokumentasi</h3>
-			<hr/>
-			<div id="uploader" style="border:1px;margin-top:15px;" width="600px">
-				<form method="post" enctype="multipart/form-data" action="processor/upload.php">
-					<label> Pilih Proyek </label>
+    <div class="container" width="800px">
+		<div id="header-home"  style="margin-top:15px;display:inline;">
+			<div id="header-pln" style="float:left;">
+				<table>
+					<tr>
+						<td valign="middle">
+							<img src="img/pln-logo.jpg">
+						</td>
+						<td valign="middle">
+							PT. PLN (Persero) UPK PIH 1 Proyek PLTA Upper Cisokan<br/>
+							Monitoring Progress Kegiatan Proyek
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		&nbsp;
+		&nbsp;
+		<div id="main-home" style="margin-top:100px;" width="800px">
+			<div style="float:left;">
+				<div class="menu-home">
+					Home
+				</div>
+				<div class="menu-home">
+					Monitoring Pekerjaan
+				</div>
+				<div class="menu-home">
+					Kurva S
+				</div>
+				<div class="menu-home">
+					Laporan Harian
+				</div>
+				<div class="menu-home">
+					About
+				</div>
+				<div class="menu-home" style="margin-top:200px">
+					Logout
+				</div>
+			</div>
+			<div style="margin-left:200px;border-style:solid">
+				<h3><center>Upload Dokumentasi</center></h3>
+				<hr/>
+				<form method="post" enctype="multipart/form-data" action="processor/upload.php" style="margin-left:15px;margin-bottom:15px;">
+					<label> Pilih Proyek </label>&nbsp;<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<select>
 						<option value="A">Proyek A</option>
 						<option value="B">Proyek B</option>
 						<option value="C">Proyek C</option>
 					</select>
-					</br>
-					<div style="margin-left:45px;">
-						<label>Pilih File</label><input type="file" id="file" name="files[]" multiple="multiple" accept="image/*">
-					</div>
+					<br/>
+					<label style="float: left;">Pilih File</label> &nbsp;<input type="file" id="file" name="files[]" multiple="multiple" accept="image/*">
 					<br/>
 					<input type="submit" name="submit" value="Upload">
 				</form>
 			</div>
-			<div style="margin-top:70px;">
-				<div style="float:left;margin-right:15px;">
-					<img src="img/pln-logo.jpg" width="75" height="80" ></img>
-				</div>
-				<p>
-					<h3>SCIENCE & TECHNOLOGY OLYMPIAD<br/>
-					SISWA PRAJABATAN OJT ANGKATAN 43<br/>
-					PT.PLN (PERSERO)  -UIP VI
-					</h3>
-				</p>
-			</div>
 		</div>
+		
     </div><!-- /.container -->
 
 
