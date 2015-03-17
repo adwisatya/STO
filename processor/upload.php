@@ -1,7 +1,7 @@
 <?php 
 	$valid_formats = array("jpg", "png", "gif", "zip", "bmp");
 	$max_file_size = 1024*100; //100 kb
-	$path = "../img/uploads/"; // Upload directory
+	$path = "../img/"; // Upload directory
 	$count = 0;
 
 	if(isset($_POST) and $_SERVER['REQUEST_METHOD'] == "POST"){
