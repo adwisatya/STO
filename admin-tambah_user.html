@@ -33,7 +33,7 @@
 		Selamat Datang di MPO (Monitoring Progres Proyek) UPK PH 1 PLTA Upper Cisokan
       </div>
     </nav>
-    <div class="container" width="800px" style="border-style:solid;">
+    <div class="container" width="800px" style="border-style:none">
 		<div id="header-home"  style="margin-top:15px;display:block;">
 			<div id="header-pln" style="float:left;">
 				<table>
@@ -55,8 +55,8 @@
 			<div align="center">
 				<h2> User/Admin </h2>
 			</div>
-			<div style="border-style:solid">
-				<h5> Data Akun Pengguna </h5>
+			<div style="border-style:none">
+				<h4> Data Akun Pengguna </h4>
 				<hr/>
 				<table width="750px" border="1" style="text-align:center;">
 					<tr>
@@ -134,23 +134,53 @@
 					<input type="submit" value="ubah" name="ubah">
 					<input type="submit" value="hapus" name="hapus">
 				</div>
-				<div>
-					<h5>Tambah/Edit Pengguna</h5>
+				<div style="margin-top:5px;margin-bottom:15px;">
+					<h4>Tambah/Edit Pengguna</h4>
+					<hr/>
 					<table>
 						<tr>
+							<td width="187.5px">
+								Username
+							</td>
+							<td width="187.5px">
+								<input type="text" name="username">
+							</td>
+							<td width="187.5px">
+								Nama
+							</td>
+							<td width="187.5px">
+								<input type="text" name="nama">
+							</td>
+						</tr>
+						<tr>
 							<td>
-							
+								Password
+							</td>
+							<td> 
+								<input type="password" name="password">
 							</td>
 							<td>
-							
 							</td>
 							<td>
-							
+								<input type="submit" name="simpan" value="simpan">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Tipe Login	
 							</td>
 							<td>
+								<select name="tipeadmin">
+									<option value="admin">Admin</option>
+									<option value="PLN">PLN</option>
+									<option value="JMK">JMK</option>
+								</select>
+							</td>
+							<td colspan="2">
 							
 							</td>
 						</tr>
+						
 					</table>
 				</div>
 			</div>
