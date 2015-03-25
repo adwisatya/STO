@@ -108,9 +108,9 @@
             <div class="col-lg-12">
                 <h2 class="page-header">Tentang Kami</h2>
             </div>
-            <div class="col-md-6 text-center">
+            <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/profile/Abdi.jpg" alt="" style="height:600px;">
+                    <img class="img-responsive" src="img/profile/1.jpg" alt="" style="height:400px;">
                     <div class="caption">
                         <h3>Abdi Hamdani<br>
                             <small>D3K/POLTEKPADANG/001 </small>
@@ -118,9 +118,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 text-center">
+            <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/profile/Alfon.jpg" alt="" style="height:600px;">
+                    <img class="img-responsive" src="img/profile/2.jpg" alt="" style="height:400px;">
                     <div class="caption">
                         <h3>Alfon Prima<br>
                             <small>D3K/POLTEKPADANG/003 </small>
@@ -128,7 +128,16 @@
                     </div>
                 </div>
             </div>
-
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/profile/3.jpg" alt="" style="height:400px;">
+                    <div class="caption">
+                        <h3>Riky Johan<br>
+                            <small>D3K/POLTEKPADANG/020</small>
+                        </h3>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- /.row -->
 

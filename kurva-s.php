@@ -96,7 +96,7 @@
                 <div class="list-group">
                     <a href="index.php" class="list-group-item">Home</a>
                     <a href="monitoring.php" class="list-group-item">Monitoring Pekerjaan</a>
-                    <a href="kura-s.php" class="list-group-item">Kurva S</a>
+                    <a href="kurva-s.php" class="list-group-item">Kurva S</a>
                     <a href="laporan-harian.php" class="list-group-item">Laporan Harian</a>
 					<a href="about.php" class="list-group-item">About</a>
 					<a href="contact.php" class="list-group-item">Log Out</a>

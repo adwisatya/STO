@@ -97,7 +97,7 @@
                 <div class="list-group">
                     <a href="index.php" class="list-group-item">Home</a>
                     <a href="monitoring.php" class="list-group-item">Monitoring Pekerjaan</a>
-                    <a href="kura-s.php" class="list-group-item">Kurva S</a>
+                    <a href="kurva-s.php" class="list-group-item">Kurva S</a>
                     <a href="laporan-harian.php" class="list-group-item">Laporan Harian</a>
 					<a href="about.php" class="list-group-item">About</a>
 					<a href="contact.php" class="list-group-item">Log Out</a>
@@ -109,14 +109,18 @@
 				<form class="form-horizontal">
 					<div class="form-group">
 						<div class="col-xs-3">
-							<input type="email" class="form-control" id="inputEmail" placeholder="Tanggal">
+							<input type="tanggal" class="form-control" id="inputEmail" placeholder="Tanggal">
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-xs-10">
 							<textarea name="deskripsi" class="form-control">
-								Deskripsi
 							</textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-3">
+							<input type="file" name="gambar">
 						</div>
 					</div>
 					<div class="form-group">
