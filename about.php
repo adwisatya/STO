@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MPO Cisokan - Laporan Harian</title>
+    <title>Monitoring Progress Proyek (MPO) UPK PH 1 PLTA Upper Cisokan - About</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -54,16 +54,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     <li>
-                        <a href="monitoring.html">Monitoring</a>
+                        <a href="monitoring.php">Monitoring</a>
                     </li>
                     <li>
-                        <a href="kurva-s.html">Kurva S</a>
+                        <a href="kurva-s.php">Kurva S</a>
                     </li>
                     <li>
-                        <a href="laporan-harian.html">Laporan Harian</a>
+                        <a href="laporan-harian.php">Laporan Harian</a>
                     </li>
                 </ul>
             </div>
@@ -78,54 +78,57 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Laporan Harian
-                    <small>Input</small>
+                <h1 class="page-header">Tentang Kami
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.php">Home</a>
                     </li>
-                    <li class="active">Sidebar Page</li>
+                    <li class="active">About</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Content Row -->
+        <!-- Intro Content -->
         <div class="row">
-            <!-- Sidebar Column -->
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="index.html" class="list-group-item">Home</a>
-                    <a href="monitoring.html" class="list-group-item">Monitoring Pekerjaan</a>
-                    <a href="kura-s.html" class="list-group-item">Kurva S</a>
-                    <a href="laporan-harian.html" class="list-group-item">Laporan Harian</a>
-					<a href="about.html" class="list-group-item">About</a>
-					<a href="contact.html" class="list-group-item">Log Out</a>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2>Tentang MPO PLTA Upper Cisokan</h2>
+                <p>
+					Situs ini dibuat sebagai sarana untuk meningkatkan efisiensi dan efektifitas pemantauan proyek yang sedang berjalan. Situs ini dibuat sebagai pemenuhan tugas diklat.
+				</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Team Members -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Tentang Kami</h2>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/profile/Abdi.jpg" alt="" style="height:600px;">
+                    <div class="caption">
+                        <h3>Abdi Hamdani<br>
+                            <small>D3K/POLTEKPADANG/001 </small>
+                        </h3>
+                    </div>
                 </div>
             </div>
-            <!-- Content Column -->
-            <div class="col-md-9">
-                <center><h2>Laporan Harian</h2></center>
-				<form class="form-horizontal">
-					<div class="form-group">
-						<div class="col-xs-3">
-							<input type="email" class="form-control" id="inputEmail" placeholder="Tanggal">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-xs-10">
-							<textarea name="deskripsi" class="form-control">
-								Deskripsi
-							</textarea>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-xs-3">
-							<input type="submit" class="form-control" id="inputEmail" value="Submit Laporan" name="submit">
-						</div>
-					</div>
-				</form>
+            <div class="col-md-6 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/profile/Alfon.jpg" alt="" style="height:600px;">
+                    <div class="caption">
+                        <h3>Alfon Prima<br>
+                            <small>D3K/POLTEKPADANG/003 </small>
+                        </h3>
+                    </div>
+                </div>
             </div>
+
         </div>
         <!-- /.row -->
 
@@ -135,7 +138,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; sto.bangsatya.com 2015</p>
                 </div>
             </div>
         </footer>

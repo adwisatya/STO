@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MPO Cisokan - Kurva S</title>
+    <title>MPO Cisokan - Login</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -54,16 +54,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     <li>
-                        <a href="monitoring.html">Monitoring</a>
+                        <a href="monitoring.php">Monitoring</a>
                     </li>
                     <li>
-                        <a href="kurva-s.html">Kurva S</a>
+                        <a href="kurva-s.php">Kurva S</a>
                     </li>
                     <li>
-                        <a href="laporan-harian.html">Laporan Harian</a>
+                        <a href="laporan-harian.php">Laporan Harian</a>
                     </li>
                 </ul>
             </div>
@@ -78,10 +78,11 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Kurva S Bulan Maret 2015
+                <h1 class="page-header">Laporan Harian
+                    <small>Input</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.php">Home</a>
                     </li>
                     <li class="active">Sidebar Page</li>
                 </ol>
@@ -94,17 +95,34 @@
             <!-- Sidebar Column -->
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="index.html" class="list-group-item">Home</a>
-                    <a href="monitoring.html" class="list-group-item">Monitoring Pekerjaan</a>
-                    <a href="kura-s.html" class="list-group-item">Kurva S</a>
-                    <a href="laporan-harian.html" class="list-group-item">Laporan Harian</a>
-					<a href="about.html" class="list-group-item">About</a>
-					<a href="contact.html" class="list-group-item">Log Out</a>
+                    <a href="index.php" class="list-group-item">Home</a>
+                    <a href="monitoring.php" class="list-group-item">Monitoring Pekerjaan</a>
+                    <a href="kura-s.php" class="list-group-item">Kurva S</a>
+                    <a href="laporan-harian.php" class="list-group-item">Laporan Harian</a>
+					<a href="about.php" class="list-group-item">About</a>
+					<a href="contact.php" class="list-group-item">Log Out</a>
                 </div>
             </div>
             <!-- Content Column -->
             <div class="col-md-9">
-				<img src="img/others/kurva-s.jpg" class="col-md-12"></img>
+                <center><h2>Login</h2></center>
+				<form class="form-horizontal">
+					<div class="form-group">
+						<div class="col-xs-12">
+							<input type="username" class="form-control" id="inputEmail" placeholder="Username">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-12">
+							<input type="email" class="form-control" id="inputEmail" placeholder="Password">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-3">
+							<input type="submit" class="form-control" id="inputEmail" value="Login" name="submit">
+						</div>
+					</div>
+				</form>
             </div>
         </div>
         <!-- /.row -->

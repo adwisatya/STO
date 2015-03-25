@@ -54,16 +54,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     <li>
-                        <a href="monitoring.html">Monitoring</a>
+                        <a href="monitoring.php">Monitoring</a>
                     </li>
                     <li>
-                        <a href="kurva-s.html">Kurva S</a>
+                        <a href="kurva-s.php">Kurva S</a>
                     </li>
                     <li>
-                        <a href="laporan-harian.html">Laporan Harian</a>
+                        <a href="laporan-harian.php">Laporan Harian</a>
                     </li>
                 </ul>
             </div>
@@ -143,32 +143,32 @@
                 <h2 class="page-header">Gallery Dokumentasi</h2>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="portfolio-item.php">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="portfolio-item.php">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="portfolio-item.php">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="portfolio-item.php">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="portfolio-item.php">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="portfolio-item.php">
                     <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
