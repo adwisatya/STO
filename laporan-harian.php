@@ -106,10 +106,10 @@
             <!-- Content Column -->
             <div class="col-md-9">
                 <center><h2>Laporan Harian</h2></center>
-				<form class="form-horizontal">
+				<form class="form-horizontal" method="post" action="bin/upload.php" enctype="multipart/form-data">
 					<div class="form-group">
 						<div class="col-xs-3">
-							<input type="tanggal" class="form-control" id="inputEmail" placeholder="Tanggal">
+							<input type="tanggal" class="form-control" id="inputEmail" placeholder="Tanggal" name="tanggal">
 						</div>
 					</div>
 					<div class="form-group">
@@ -120,7 +120,7 @@
 					</div>
 					<div class="form-group">
 						<div class="col-xs-3">
-							<input type="file" name="gambar">
+							<input type="file" id="file" name="userfile" multiple="multiple">
 						</div>
 					</div>
 					<div class="form-group">

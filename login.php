@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -106,20 +105,20 @@
             <!-- Content Column -->
             <div class="col-md-9">
                 <center><h2>Login</h2></center>
-				<form class="form-horizontal">
+				<form class="form-horizontal" method="post" action="bin/mlogin.php">
 					<div class="form-group">
 						<div class="col-xs-12">
-							<input type="username" class="form-control" id="inputEmail" placeholder="Username">
+							<input type="text" class="form-control" placeholder="username" name="username">
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-xs-12">
-							<input type="email" class="form-control" id="inputEmail" placeholder="Password">
+							<input type="password" class="form-control" placeholder="Password" name="password">
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-xs-3">
-							<input type="submit" class="form-control" id="inputEmail" value="Login" name="submit">
+							<input type="submit" class="form-control" value="Login" name="submit">
 						</div>
 					</div>
 				</form>
