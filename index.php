@@ -84,7 +84,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="fill" style="background-image:url('img/home/home.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Caption 1</h2>
                 </div>
@@ -129,7 +129,29 @@
                     </div>
                     <div class="panel-body">
                         <p>
-							Situs ini merupakan sarana bagi pelaksana proyek dan manager untuk melakukan monitoring terhadap keberjalanan proyek. Pengguna dapat melihat status perkembangan proyek yang ada dan melakukan penambahan progres dari proyek yang ada.
+							Dalam rangka meningkatkan pasokan tenaga listrik di pulau jawa, pemerintah dalam hal ini PT PLN (Persero), berencana untuk membangun Pembangkit Listrik Tenaga Air (PLTA) Cisokan Hulu (Upper Cisokan Pumped Storage HEPP) yang terletak di kabupaten Bandung Barat dan Kabupaten Cianjur. PLTA ini memiliki kapasitas terpasang 1.040 MW. PLTA ini merupakan PLTA dengan sistem Pumped Storage pertama di Indonesia.
+						</p>
+						<p>
+							Rencana pembangunan PLTA Cisokan (Pumped Storage) ditujukan untuk mengatasi kekurangan daya akibat peningkatan kebutuhan energi listrik saat beban puncak pada sistem jaringan kelistrikan Jawa-Bali, sehingga keandalan (reliability) system kelistrikan Jawa – Bali dapat ditingkatkan. PLTA Cisokan diharapkan dapat menambah pasokan energi pada saat beban puncak, sebagai fasilitas pembangkitan cadangan (stand by) jika terjadi penurunan kapasitas pada jaringan dan membantu mengatur frekuensi sistem keseluruhan antara 49 dan 51 Hz.
+						</p>
+						<p>
+							PLTA Upper Cisokan Pumped Storage (UCPS) memiliki dua buah reservoir dibagian bawah dan atas, dengan cara membendung sungai cisokan menggunakan Dam beton tipe RCC (Rolled Compacted Concrete/beton yang dipadatkan) setinggi +/- 98 m, dan Dam yang membendung sungai Cirumamis setinggi +/- 75 m dengan tipe RCC, maka akan terjadi dua genangan air di dua reservoir yang memiliki selisih ketinggian +/- 300 m. Air dari reservoir bawah dipompa ke reservoir yang terletak di atas dengan memanfaatkan sisa energi thermal (base load) yang diambil dari sistem interkoneksi jawa bali saat beban rendah pada tengah malam atau pagi hari. Kemudian pada saat beban puncak (peak load) antara pukul 17.00 -22.00, air dialirkan melalui dua buah terowongan (headrace tunnel) dan pipa pesat(penstock) menuju power house yang terletak dibawah tanah dengan ketinggian jatuh rata-rata (rated net head) sekitar 276 m. Kapasitas efektif masing-masing reservoir sekitar 10  juta m3 yang dapat digunakan untuk memenuhi kebutuhan listrik pada saat beban puncak selama 6,5 jam.
+						</p>
+						<p>
+							Pembangunan Upper Cisokan Pumped Storage, terdiri dari 4 paket pekerjaan utama:<br/>
+							<b>PAKET 1</b><br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;- LOT 1A       : Upper & Lower Dams<br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;- LOT 1B       : Waterways, Powerhouse, Switchyard, &  Administration Building<br/>
+							<b>PAKET 2</b><br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;Pump Turbine, Generator Motor, & Auxiliary Equipment<br/>
+							<b>PAKET 3</b><br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;500 kV Transmission Line<br/>
+							<b>PAKET 4</b><br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;Hydraulic Metal Works<br/>
+						</p>
+						<p>
+							<b>ACCESS ROAD</b><br/>
+							Salah satu fungsi utama perlu dibangunnya jalan hantar (access road) adalah untuk mengangkut material batuan dari quarry ke lokasi bendungan sepanjang 34 km, dari quarry melewati jalan yang sudah ada (existing road) 6,7 km, dan jalan baru (new road) yang akan dibangun dari Dusun Cipari/ Desa Cijambu sampai ke lokasi lower dam dan lokasi upper dam sepanjang 27,3 km.
 						</p>
                     </div>
                 </div>
@@ -144,32 +166,32 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.php">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-portfolio img-hover" src="img/home/gallery/A.jpg" alt="" height="200px" width="300px">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.php">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class=" img-portfolio img-hover" src="img/home/gallery/B.jpg" alt="" height="200px" width="300px">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.php">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class=" img-portfolio img-hover" src="img/home/gallery/C.jpg" alt="" height="200px" width="300px">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.php">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class=" img-portfolio img-hover" src="img/home/gallery/D.jpg" alt="" height="200px" width="300px">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.php">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class=" img-portfolio img-hover" src="img/home/gallery/E.jpg" alt="" height="200px" width="300px">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.php">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-portfolio img-hover" src="img/home/gallery/F.jpg" alt="" height="200px" width="300px">
                 </a>
             </div>
         </div>
