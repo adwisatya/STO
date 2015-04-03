@@ -1,3 +1,12 @@
+<?php 
+	session_start();
+
+	if($_SESSION['username'] == ""){
+		header("location: login.php");
+	}else{
+		$username = $_SESSION['username'];
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -78,7 +87,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Kurva S Bulan Maret 2015
+                <h1 class="page-header">Kurva S
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a>
@@ -95,16 +104,12 @@
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="index.php" class="list-group-item">Home</a>
-                    <a href="monitoring.php" class="list-group-item">Monitoring Pekerjaan</a>
-                    <a href="kurva-s.php" class="list-group-item">Kurva S</a>
-                    <a href="laporan-harian.php" class="list-group-item">Laporan Harian</a>
-					<a href="about.php" class="list-group-item">About</a>
-					<a href="contact.php" class="list-group-item">Log Out</a>
+					<a href="bin/logout.php" class="list-group-item">Log Out</a>
                 </div>
             </div>
             <!-- Content Column -->
             <div class="col-md-9">
-				<img src="img/others/kurva-s.jpg" class="col-md-12"></img>
+				<img src="jpgraph/src/Examples/new_line1.php" class="col-md-12"></img>
             </div>
         </div>
         <!-- /.row -->

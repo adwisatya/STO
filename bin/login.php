@@ -8,7 +8,7 @@
 			if($password== $data['password']){
 				$_SESSION['username'] = $username;
 				$_SESSION['status'] = $data['status'];
-				header("location: ../monitoring.php");
+				header("location: ../kurva-s.php");
 			}else{
 				header("location: ../login.php");
 			}

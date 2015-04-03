@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+<?php 
+	session_start();
+	require_once("connect/connect.php");
+
+	if($_SESSION['username'] == ""){
+		header("location: login.php");
+	}else{
+		$username = $_SESSION['username'];
+	}
+
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -96,39 +106,77 @@
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="index.php" class="list-group-item">Home</a>
-                    <a href="monitoring.php" class="list-group-item">Monitoring Pekerjaan</a>
-                    <a href="kurva-s.php" class="list-group-item">Kurva S</a>
-                    <a href="laporan-harian.php" class="list-group-item">Laporan Harian</a>
-					<a href="about.php" class="list-group-item">About</a>
-					<a href="contact.php" class="list-group-item">Log Out</a>
+					<a href="bin/logout.php" class="list-group-item">Log Out</a>
                 </div>
             </div>
             <!-- Content Column -->
             <div class="col-md-9">
-                <center><h2>Laporan Harian</h2></center>
-				<form class="form-horizontal" method="post" action="bin/upload.php" enctype="multipart/form-data">
-					<div class="form-group">
-						<div class="col-xs-3">
-							<input type="tanggal" class="form-control" id="inputEmail" placeholder="Tanggal" name="tanggal">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-xs-10">
-							<textarea name="deskripsi" class="form-control">
-							</textarea>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-xs-3">
-							<input type="file" id="file" name="userfile" multiple="multiple">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-xs-3">
-							<input type="submit" class="form-control" id="inputEmail" value="Submit Laporan" name="submit">
-						</div>
-					</div>
-				</form>
+                <h2>Laporan Harian</h2>
+					<a href="laporan-harian.php">List</a> | <a href="laporan-harian.php?cmd=add">Add</a>
+				
+				<?php
+					if(isset($_GET['cmd'])){
+						switch ($_GET['cmd']){
+							case 'add':
+								echo '
+									<form class="form-horizontal" method="post" action="bin/upload.php" enctype="multipart/form-data">
+										<div class="form-group">
+											<div class="col-xs-3">
+												<input type="tanggal" class="form-control" placeholder="Tanggal" name="tanggal">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-xs-10">
+												<textarea name="deskripsi" class="form-control">
+												</textarea>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-xs-3">
+												<input type="file" id="file" name="userfile" multiple="multiple">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-xs-3">
+												<input type="submit" class="form-control" id="inputEmail" value="Submit Laporan" name="submit">
+											</div>
+										</div>
+									</form>
+								';
+								break;
+							case 'view':
+								$query = mysql_query("select * from laporan_harian WHERE no =".$_GET['id']);
+								while($data  =  mysql_fetch_array($query)){
+									echo '<center>';
+									echo $data['tanggal'];
+									echo '<br>';
+									echo '<img src="img/laporan/'.$data['gambar'].'" width="400px" height="300px"><br>';
+									echo '<p>'.$data['deskripsi'].'</p>';
+									echo '</center>';									
+								}
+								break;
+						}
+					}else{
+						$query = mysql_query("select no,tanggal from laporan_harian");
+						print '<div class="row" align="center">';
+						print '<div class="col-md-3" style="border-style:solid;">Nomor</div>';
+						print '<div class="col-md-3" style="border-style:solid;">Tanggal</div>';
+						print '<div class="col-md-3" style="border-style:solid;">Action</div>';
+
+						print '</div>';
+						$i = 1;
+						while($data  =  mysql_fetch_array($query)){
+							print '<div class="row" align="center">';
+							print '<div class="col-md-3" style="border-style:solid;">'.$i.'</div>';
+							print '<div class="col-md-3" style="border-style:solid;">'.$data['tanggal'].'</div>';
+							print '<div class="col-md-3" style="border-style:solid;"><a href="laporan-harian.php?cmd=view&id='.$data['no'].'">View</a></div>';
+							print '</div>';
+							
+							$i++;
+						}
+					}
+				?>
+				
             </div>
         </div>
         <!-- /.row -->

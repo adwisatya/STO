@@ -74,50 +74,24 @@
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Laporan Harian
-                    <small>Input</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.php">Home</a>
-                    </li>
-                    <li class="active">Sidebar Page</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
-
         <!-- Content Row -->
         <div class="row">
-            <!-- Sidebar Column -->
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="index.php" class="list-group-item">Home</a>
-                    <a href="monitoring.php" class="list-group-item">Monitoring Pekerjaan</a>
-                    <a href="kurva-s.php" class="list-group-item">Kurva S</a>
-                    <a href="laporan-harian.php" class="list-group-item">Laporan Harian</a>
-					<a href="about.php" class="list-group-item">About</a>
-					<a href="contact.php" class="list-group-item">Log Out</a>
-                </div>
-            </div>
             <!-- Content Column -->
             <div class="col-md-9">
-                <center><h2>Login</h2></center>
+                <h2>Login</h2>
 				<form class="form-horizontal" method="post" action="bin/mlogin.php">
 					<div class="form-group">
-						<div class="col-xs-12">
+						<div class="col-xs-4">
 							<input type="text" class="form-control" placeholder="username" name="username">
 						</div>
 					</div>
 					<div class="form-group">
-						<div class="col-xs-12">
+						<div class="col-xs-4">
 							<input type="password" class="form-control" placeholder="Password" name="password">
 						</div>
 					</div>
 					<div class="form-group">
-						<div class="col-xs-3">
+						<div class="col-xs-2">
 							<input type="submit" class="form-control" value="Login" name="submit">
 						</div>
 					</div>
@@ -132,7 +106,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; sto.bangsatya.com 2015</p>
                 </div>
             </div>
         </footer>
