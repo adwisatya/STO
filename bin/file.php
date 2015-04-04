@@ -13,6 +13,12 @@ Class File{
 		$sql = "INSERT INTO laporan_harian (tanggal,deskripsi,gambar) VALUES('$tanggal','$deskripsi','$gambar')";
 		$query = mysql_query($sql);
 	}
+	function addToDB2($minggu,$file){
+		print $minggu;
+		print $file;
+		$sql = "INSERT INTO `laporan_mingguan` (`no`, `minggu`, `file`) VALUES (NULL, '$minggu', '$file');";
+		$query = mysql_query($sql);
+	}
 	function addToTrash($id){
 		$query = mysql_query("UPDATE file SET status='0' WHERE fileid='$id'");
 	}

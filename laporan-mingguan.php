@@ -19,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MPO Cisokan - Laporan Harian</title>
+    <title>MPO Cisokan - Laporan Mingguan</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -111,24 +111,18 @@
             </div>
             <!-- Content Column -->
             <div class="col-md-9">
-                <h2>Laporan Harian</h2>
-					<a href="laporan-harian.php">List</a> | <a href="laporan-harian.php?cmd=add">Add</a>
+                <h2>Download Report Mingguan</h2>
+					<a href="laporan-mingguan.php">List</a> | <a href="laporan-mingguan.php?cmd=add">Add</a>
 				
 				<?php
 					if(isset($_GET['cmd'])){
 						switch ($_GET['cmd']){
 							case 'add':
 								echo '
-									<form class="form-horizontal" method="post" action="bin/data.php" enctype="multipart/form-data">
+									<form class="form-horizontal" method="post" action="bin/upload2.php" enctype="multipart/form-data">
 										<div class="form-group">
 											<div class="col-xs-3">
-												<input type="tanggal" class="form-control" placeholder="Tanggal" name="tanggal">
-											</div>
-										</div>
-										<div class="form-group">
-											<div class="col-xs-10">
-												<textarea name="deskripsi" class="form-control">
-												</textarea>
+												<input type="text" class="form-control" placeholder="Minggu Ke" name="minggu">
 											</div>
 										</div>
 										<div class="form-group">
@@ -138,38 +132,27 @@
 										</div>
 										<div class="form-group">
 											<div class="col-xs-3">
-												<input type="submit" class="form-control" id="inputEmail" value="Submit Laporan" name="submit">
+												<input type="submit" class="form-control" value="Submit Laporan" name="submit">
 											</div>
 										</div>
 									</form>
 								';
 								break;
-							case 'view':
-								$query = mysql_query("select * from laporan_harian WHERE no =".$_GET['id']);
-								while($data  =  mysql_fetch_array($query)){
-									echo '<center>';
-									echo $data['tanggal'];
-									echo '<br>';
-									echo '<img src="img/laporan/'.$data['gambar'].'" width="400px" height="300px"><br>';
-									echo '<p>'.$data['deskripsi'].'</p>';
-									echo '</center>';									
-								}
-								break;
 						}
 					}else{
-						$query = mysql_query("select no,tanggal from laporan_harian");
+						$query = mysql_query("select minggu,file from laporan_mingguan");
 						print '<div class="row" align="center">';
 						print '<div class="col-md-3" style="border-style:solid;">Nomor</div>';
-						print '<div class="col-md-3" style="border-style:solid;">Tanggal</div>';
-						print '<div class="col-md-3" style="border-style:solid;">Action</div>';
+						print '<div class="col-md-3" style="border-style:solid;">Minggu</div>';
+						print '<div class="col-md-3" style="border-style:solid;">File</div>';
 
 						print '</div>';
 						$i = 1;
 						while($data  =  mysql_fetch_array($query)){
 							print '<div class="row" align="center">';
 							print '<div class="col-md-3" style="border-style:solid;">'.$i.'</div>';
-							print '<div class="col-md-3" style="border-style:solid;">'.$data['tanggal'].'</div>';
-							print '<div class="col-md-3" style="border-style:solid;"><a href="laporan-harian.php?cmd=view&id='.$data['no'].'">View</a></div>';
+							print '<div class="col-md-3" style="border-style:solid;">'.$data['minggu'].'</div>';
+							print '<div class="col-md-3" style="border-style:solid;"><a href="img/laporan/'.$data['file'].'">View</a></div>';
 							print '</div>';
 							
 							$i++;
