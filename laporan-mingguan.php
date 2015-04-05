@@ -75,6 +75,9 @@
                     <li>
                         <a href="laporan-harian.php">Laporan Harian</a>
                     </li>
+                    <li>
+                        <a href="laporan-mingguan.php">Laporan Mingguan</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -112,7 +115,7 @@
             <!-- Content Column -->
             <div class="col-md-9">
                 <h2>Download Report Mingguan</h2>
-					<a href="laporan-mingguan.php">List</a> | <a href="laporan-mingguan.php?cmd=add">Add</a>
+					<a href="laporan-mingguan.php">List</a> | <?php if($_SESSION['status']=="9"){ echo '<a href="laporan-mingguan.php?cmd=add">Add</a>'; } ?>
 				
 				<?php
 					if(isset($_GET['cmd'])){
@@ -152,7 +155,7 @@
 							print '<div class="row" align="center">';
 							print '<div class="col-md-3" style="border-style:solid;">'.$i.'</div>';
 							print '<div class="col-md-3" style="border-style:solid;">'.$data['minggu'].'</div>';
-							print '<div class="col-md-3" style="border-style:solid;"><a href="img/laporan/'.$data['file'].'">View</a></div>';
+							print '<div class="col-md-3" style="border-style:solid;"><a href="img/laporan/'.$data['file'].'">Download</a></div>';
 							print '</div>';
 							
 							$i++;

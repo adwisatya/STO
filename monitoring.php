@@ -75,6 +75,9 @@
                     <li>
                         <a href="laporan-harian.php">Laporan Harian</a>
                     </li>
+                    <li>
+                        <a href="laporan-mingguan.php">Laporan Mingguan</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

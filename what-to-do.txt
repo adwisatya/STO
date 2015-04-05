@@ -1,6 +1,6 @@
 1. Sub pekerjaan dimasukkan semua (+)
 2. Grafik per group ditotal per minggu, putus di minggu 67
-3. Grafik harian per group untuk minggu 66 dan 67
+3. Grafik harian per group untuk minggu 66 dan 67 ()
 4. Laporan harian OK (+)
 5. Tambah link report mingguan excel + Page download arsip mingguan (buat page baru). Upload admin saja (+)
 6. Tambah minggu 68 (+)
