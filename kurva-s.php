@@ -105,7 +105,7 @@
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="index.php" class="list-group-item">Home</a>
-					<a href="kurva-s.php?gid=0" class="list-group-item">Overall</a>
+					<a href="kurva-s.php" class="list-group-item">Overall</a>
 					<a href="kurva-s.php?gid=1" class="list-group-item">Group 1</a>
 					<a href="kurva-s.php?gid=2" class="list-group-item">Group 2</a>
 					<a href="kurva-s.php?gid=3" class="list-group-item">Group 3</a>
@@ -117,9 +117,6 @@
 				<?php
 					if(isset($_GET['gid'])){
 						switch ($_GET['gid']){
-							case 0:
-								echo '<img src="jpgraph/src/Examples/new_line1.php" class="col-md-12"></img>';
-								break;
 							case 1:
 								echo '<img src="bin/mingguan.php?gid=1&minggu=m67" class="col-md-12"></img>';
 								break;
@@ -131,6 +128,8 @@
 								break;
 
 						}
+					}else{
+						echo '<img src="jpgraph/src/Examples/new_line1.php" class="col-md-12"></img>';
 					}
 				?>
             </div>
