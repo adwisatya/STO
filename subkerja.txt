@@ -30,3 +30,95 @@
 3.5.1.3,Ø 1000 mm
 3.5.1.4,Reinforced Concrete K-250 inlet and Outlet structure
 3.5.1.5,Stone Masonry t = 20 cm
+3.5.2.1,1 x 1 m
+3.5.2.2,1 x 2 m
+3.5.2.3,Reinforced Concrete K-250 inlet and Outlet structure
+3.5.2.4,Stone Masonry t = 20 cm
+3.5.3.1,Ø 100 mm
+3.5.3.2,Ø 150 mm
+3.5.3.3,Ø 200 mm
+3.5.4.1,Ø 150 mm
+3.5.4.2,Ø 200 mm
+3.6.1.1.1,Earth Excavation
+3.6.1.1.2,Earth Backfill
+3.6.1.1.3,Reinforced Concrete grade K250
+3.6.1.1.4,Stone Masonry foundation
+3.6.1.1.5,Lean concrete grade K 125
+3.6.1.1.6,Cofferdam
+3.6.1.1.7,Dewatering
+3.6.1.2.1,Earth Excavation
+3.6.1.2.2,Earth Backfill
+3.6.1.2.3,Weathered Rock Excavation
+3.6.1.2.4,Reinforced Concrete grade K250
+3.6.1.2.5,Cyclope concrete for Caisson grade K175
+3.6.1.2.6,Stone Masonry foundation
+3.6.1.2.7,Lean concrete grade K 125
+3.6.1.2.8,Cofferdam
+3.6.1.2.9,Dewatering
+3.6.2.1.1,Reinforced Concrete grade K300
+3.6.2.2.1,Reinforced Concrete grade K300
+3.6.2.3.1,Reinforced Concrete grade K300
+3.6.2.4.1,Reinforced Concrete grade K250
+3.6.2.4.2,Lean concrete grade K125
+3.6.2.5.1,Elastomeric Bearing Pad
+3.6.2.6.1,Expansion Joint complete with accessories
+3.6.2.7.1,Steel anchor fix Ø30 grade ST 52
+3.6.2.7.2,Steel anchor fix Ø35 grade ST 52
+3.6.2.7.3,Steel anchor fix Ø16 grade ST 52
+3.6.2.8.1,Reinforced Concrete grade K300
+3.6.2.9.1,Steel galvanize pipe 2x Ø 3 inch completed with post
+3.6.2.10.1,Drainage PVC pipe diameter 100mm
+3.6.2.10.2,Strainer PVC pipe diameter 100mm
+3.6.3.1,Earth Excavation
+3.6.3.2,Earth Backfill
+3.6.3.3,Stone Masonry foundation
+3.6.3.4,Reinforced Concrete grade K250
+3.6.3.5,Brickwall with 25 cm thick and painted
+3.6.3.6,Bedding Stone
+3.6.1.1.1,Earth Excavation
+3.6.1.1.2,Earth Backfill
+3.6.1.1.3,Reinforced Concrete grade K250
+3.6.1.1.4,Stone Masonry foundation
+3.6.1.1.5,Lean concrete grade K 125
+3.6.1.1.6,Cofferdam
+3.6.1.1.7,Dewatering
+3.6.1.2.1,Earth Excavation
+3.6.1.2.2,Earth Backfill
+3.6.1.2.3,Weathered Rock Excavation
+3.6.1.2.4,Reinforced Concrete grade K250
+3.6.1.2.5,Cyclope concrete for Caisson grade K175
+3.6.1.2.6,Stone Masonry foundation
+3.6.1.2.7,Lean concrete grade K 125
+3.6.1.2.8,Cofferdam
+3.6.1.2.9,Dewatering
+3.6.2.1.1,Reinforced Concrete grade K300
+3.6.2.2.1,Reinforced Concrete grade K300
+3.6.2.3.1,Reinforced Concrete grade K300
+3.6.2.4.1,Reinforced Concrete grade K250
+3.6.2.4.2,Lean concrete grade K125
+3.6.2.5.1,Elastomeric Bearing Pad
+3.6.2.6.1,Expansion Joint complete with accessories
+3.6.2.7.1,Steel anchor fix Ø30 grade ST 52
+3.6.2.7.2,Steel anchor fix Ø35 grade ST 52
+3.6.2.7.3,Steel anchor fix Ø16 grade ST 52
+3.6.2.8.1,Reinforced Concrete grade K300
+3.6.2.9.1,Steel galvanize pipe 2x Ø 3 inch completed with post
+3.6.2.10.1,Drainage PVC pipe diameter 100mm
+3.6.2.10.2,Strainer PVC pipe diameter 100mm
+3.6.3.1,Earth Excavation
+3.6.3.2,Earth Backfill
+3.6.3.3,Stone Masonry foundation
+3.6.3.4,Reinforced Concrete grade K250
+3.6.3.5,Brickwall with 25 cm thick and painted
+3.6.3.6,Bedding Stone
+3.7.1,Turfing, Sodding
+3.7.2,Stone Masonry 1 : 3	Vetiver
+3.7.3,Reinforced Concrete grade K250
+3.7.4,Gabion
+3.8.1,Thickness 60 mm
+3.8.2,Thickness 100 mm
+3.9.1,Expansion grouted rock bolt up to 6 m
+3.9.2,Grouted dowel up to 3 m
+3.9.3,Inclinometer set
+3.9.4,Pipes of inclinometer per 50 m
+3.9.5,Hole for inclinometer
