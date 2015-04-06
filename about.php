@@ -45,7 +45,7 @@
 							&nbsp;
 						</td>
 						<td valign="middle">
-							PT. PLN (Persero) UPK PIH 1 Proyek PLTA Upper Cisokan<br/>
+							PT. PLN (Persero) UPK PH 1 Proyek PLTA Upper Cisokan<br/>
 							Monitoring Progress Kegiatan Proyek
 						</td>
 					</tr>
@@ -92,12 +92,12 @@
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="img/olympiad.JPG" alt="">
             </div>
             <div class="col-md-6">
                 <h2>Tentang MPO PLTA Upper Cisokan</h2>
                 <p>
-					Situs ini dibuat sebagai sarana untuk meningkatkan efisiensi dan efektifitas pemantauan proyek yang sedang berjalan. Situs ini dibuat sebagai pemenuhan tugas diklat.
+					Situs ini dibuat sebagai sarana untuk meningkatkan efisiensi dan efektifitas pemantauan proyek yang sedang berjalan. Situs ini dibuat sebagai pemenuhan tugas Science Technology Olimpiad (STO).
 				</p>
             </div>
         </div>

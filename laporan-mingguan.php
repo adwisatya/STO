@@ -55,7 +55,7 @@
 							&nbsp;
 						</td>
 						<td valign="middle">
-							PT. PLN (Persero) UPK PIH 1 Proyek PLTA Upper Cisokan<br/>
+							PT. PLN (Persero) UPK PH 1 Proyek PLTA Upper Cisokan<br/>
 							Monitoring Progress Kegiatan Proyek
 						</td>
 					</tr>
