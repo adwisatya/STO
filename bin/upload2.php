@@ -9,6 +9,6 @@
 		$fileHandler = new File();
 		$fileHandler->addToDB2($minggu, md5($_FILES['userfile']['name']).".".pathinfo($file, PATHINFO_EXTENSION));
 		//echo "<script>alert('File Uploaded Successfully');</script>";
-		//header("location: ../laporan-mingguan.php");
+		header("location: ../laporan-mingguan.php");
 	}
 ?>
