@@ -19,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MPO Cisokan - Laporan Harian</title>
+    <title>BIS COTA Cisokan - Laporan Harian</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

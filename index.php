@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Monitoring Progress Proyek (MPO) UPK PH 1 PLTA Upper Cisokan</title>
+    <title>Monitoring Progress Proyek (BIS COTA) UPK PH 1 PLTA Upper Cisokan</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -122,7 +122,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Selamat Datang di situs MPO PLTA Upper Cisokan
+                    Selamat Datang di situs BIS COTA PLTA Upper Cisokan
                 </h1>
             </div>
             <div class="col-md-12">
