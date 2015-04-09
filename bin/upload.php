@@ -11,5 +11,8 @@
 		$fileHandler->addToDB($tanggal,$deskripsi,md5($_FILES['userfile']['name']).".".pathinfo($file, PATHINFO_EXTENSION));
 		//echo "<script>alert('File Uploaded Successfully');</script>";
 		header("location: ../laporan-harian.php");
+	}else{
+		header("location: ../laporan-harian.php");
+
 	}
 ?>
