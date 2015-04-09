@@ -150,7 +150,7 @@
 									<div class="col-md-1" style=""> Sabtu </div>
 									<div class="col-md-1" style=""> Minggu </div>
 								</div>
-								Minggu 67
+								Minggu 66
 								<div class="row">
 									<div class="col-md-1" style=""> <input type="text" name="senin" size="5px"> </div>
 									<div class="col-md-1" style=""> <input type="text" name="selasa" size="5px"> </div>
@@ -160,35 +160,41 @@
 									<div class="col-md-1" style=""> <input type="text" name="sabtu" size="5px"> </div>
 									<div class="col-md-1" style=""> <input type="text" name="minggu" size="5px"> </div>
 								</div>
+								Minggu 67
+								<div class="row">
+									<div class="col-md-1" style=""> <input type="text" name="senin2" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="selasa2" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="rabu2" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="kamis2" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="jumat2" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="sabtu2" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="minggu2" size="5px"> </div>
+								</div>
 								Minggu 68
 								<div class="row">
-									<div class="col-md-1" style=""> <input type="text" name="senin2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="selasa2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="rabu2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="kamis2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="jumat2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="sabtu2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="minggu2" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="senin3" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="selasa3" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="rabu3" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="kamis3" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="jumat3" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="sabtu3" size="5px"> </div>
+									<div class="col-md-1" style=""> <input type="text" name="minggu3" size="5px"> </div>
 								</div>
-								Minggu 69
-								<div class="row">
-									<div class="col-md-1" style=""> <input type="text" name="senin2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="selasa2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="rabu2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="kamis2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="jumat2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="sabtu2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="minggu2" size="5px"> </div>
-								</div>
-								<div class="row">
-									<div class="col-md-1" style=""> <input type="text" name="senin2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="selasa2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="rabu2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="kamis2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="jumat2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="sabtu2" size="5px"> </div>
-									<div class="col-md-1" style=""> <input type="text" name="minggu2" size="5px"> </div>
-								</div>
+								<?php 
+								for($i=69;$i<=81;$i++){
+									echo "Minggu ".$i;
+									echo '
+									<div class="row">
+										<div class="col-md-1" style=""> <input type="text" name="senin3x" size="5px"> </div>
+										<div class="col-md-1" style=""> <input type="text" name="selasa3x" size="5px"> </div>
+										<div class="col-md-1" style=""> <input type="text" name="rabu3x" size="5px"> </div>
+										<div class="col-md-1" style=""> <input type="text" name="kamis3x" size="5px"> </div>
+										<div class="col-md-1" style=""> <input type="text" name="jumat3x" size="5px"> </div>
+										<div class="col-md-1" style=""> <input type="text" name="sabtu3x" size="5px"> </div>
+										<div class="col-md-1" style=""> <input type="text" name="minggu3x" size="5px"> </div>
+									</div>';
+								}
+								?>
 							</div>
 						</div>
 						<div class="form-group">
@@ -208,7 +214,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; sto.bangsatya.com 2015</p>
                 </div>
             </div>
         </footer>

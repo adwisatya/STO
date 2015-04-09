@@ -122,7 +122,7 @@
 						switch ($_GET['cmd']){
 							case 'add':
 								echo '
-									<form class="form-horizontal" method="post" action="bin/data.php" enctype="multipart/form-data">
+									<form class="form-horizontal" method="post" action="bin/upload.php" enctype="multipart/form-data">
 										<div class="form-group">
 											<div class="col-xs-3">
 												<input type="tanggal" class="form-control" placeholder="Tanggal" name="tanggal">
@@ -162,6 +162,33 @@
 								$query = mysql_query("DELETE from laporan_harian WHERE no =".$_GET['id']);
 								header("location: laporan-harian.php");
 								break;
+							case 'edit':
+								echo '
+									<form class="form-horizontal" method="post" action="bin/data.php" enctype="multipart/form-data">
+										<div class="form-group">
+											<div class="col-xs-3">
+												<input type="tanggal" class="form-control" placeholder="Tanggal" name="tanggal">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-xs-10">
+												<textarea name="deskripsi" class="form-control">
+												</textarea>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-xs-3">
+												<input type="file" id="file" name="userfile" multiple="multiple">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-xs-3">
+												<input type="submit" class="form-control" id="inputEmail" value="Submit Laporan" name="submit">
+											</div>
+										</div>
+									</form>
+								';
+								break;
 						}
 					}else{
 						$query = mysql_query("select no,tanggal from laporan_harian");
@@ -176,7 +203,10 @@
 							print '<div class="row" align="center">';
 							print '<div class="col-md-3" style="border-style:solid;">'.$i.'</div>';
 							print '<div class="col-md-3" style="border-style:solid;">'.$data['tanggal'].'</div>';
-							print '<div class="col-md-3" style="border-style:solid;"><a href="laporan-harian.php?cmd=view&id='.$data['no'].'">View</a><a href="laporan-harian.php?cmd=delete&id='.$data['no'].'"> | Delete</a></div>';
+							print '<div class="col-md-3" style="border-style:solid;"><a href="laporan-harian.php?cmd=view&id='.$data['no'].'">View</a>
+									<a href="laporan-harian.php?cmd=delete&id='.$data['no'].'"> | Delete</a>
+									<a href="laporan-harian.php?cmd=edit&id='.$data['no'].'"> | Edit</a>
+									</div>';
 							print '</div>';
 							
 							$i++;
