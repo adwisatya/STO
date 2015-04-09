@@ -132,7 +132,7 @@
 
 						}
 					}else{
-						echo '<img src="jpgraph/src/Examples/new_line1.php" class="col-md-12"></img>';
+						echo '<img src="bin/new_line1.php" class="col-md-12"></img>';
 					}
 				?>
             </div>
