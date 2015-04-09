@@ -121,13 +121,13 @@
 					if(isset($_GET['gid'])){
 						switch ($_GET['gid']){
 							case 1:
-								echo '<img src="bin/mingguan.php?gid=1&minggu=m67" class="col-md-12"></img>';
+								echo '<img src="bin/mingguan.php?gid=1" class="col-md-12"></img>';
 								break;
 							case 2:
-								echo '<img src="bin/mingguan.php?gid=2&minggu=m67" class="col-md-12"></img>';
+								echo '<img src="bin/mingguan.php?gid=2" class="col-md-12"></img>';
 								break;
 							case 3:
-								echo '<img src="bin/mingguan.php?gid=3&minggu=m67" class="col-md-12"></img>';
+								echo '<img src="bin/mingguan.php?gid=3" class="col-md-12"></img>';
 								break;
 
 						}
