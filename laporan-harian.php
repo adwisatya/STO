@@ -125,7 +125,8 @@
 									<form class="form-horizontal" method="post" action="bin/upload.php" enctype="multipart/form-data">
 										<div class="form-group">
 											<div class="col-xs-3">
-												<input type="tanggal" class="form-control" placeholder="Tanggal" name="tanggal">
+												<input type="text" class="form-control" placeholder="Tanggal" name="tanggal">
+												<input type="text" class="form-control" placeholder="link video dokumentasi" name="youtube">
 											</div>
 										</div>
 										<div class="form-group">
@@ -195,6 +196,8 @@
 						print '<div class="row" align="center">';
 						print '<div class="col-md-3" style="border-style:solid;">Nomor</div>';
 						print '<div class="col-md-3" style="border-style:solid;">Tanggal</div>';
+						print '<div class="col-md-3" style="border-style:solid;">Link Video</div>';
+
 						print '<div class="col-md-3" style="border-style:solid;">Action</div>';
 
 						print '</div>';
@@ -203,6 +206,8 @@
 							print '<div class="row" align="center">';
 							print '<div class="col-md-3" style="border-style:solid;">'.$i.'</div>';
 							print '<div class="col-md-3" style="border-style:solid;">'.$data['tanggal'].'</div>';
+							print '<div class="col-md-3" style="border-style:solid;"> &nbsp;</div>';
+
 							print '<div class="col-md-3" style="border-style:solid;"><a href="laporan-harian.php?cmd=view&id='.$data['no'].'">View</a>
 									<a href="laporan-harian.php?cmd=delete&id='.$data['no'].'"> | Delete</a>
 									<a href="laporan-harian.php?cmd=edit&id='.$data['no'].'"> | Edit</a>

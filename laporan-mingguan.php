@@ -155,7 +155,7 @@
 							print '<div class="row" align="center">';
 							print '<div class="col-md-3" style="border-style:solid;">'.$i.'</div>';
 							print '<div class="col-md-3" style="border-style:solid;">'.$data['minggu'].'</div>';
-							print '<div class="col-md-3" style="border-style:solid;"><a href="img/laporan/'.$data['file'].'">Download</a></div>';
+							print '<div class="col-md-3" style="border-style:solid;"><a href="img/laporan/'.$data['file'].'">Download</a> | Delete</div>';
 							print '</div>';
 							
 							$i++;

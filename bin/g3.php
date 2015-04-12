@@ -3,7 +3,7 @@ require_once('../connect/connect.php');
 require_once ('../jpgraph/src/jpgraph.php');
 require_once ('../jpgraph/src/jpgraph_line.php');
 
-$datay0 = array(22.50,22.50,22.50,22.50,22.52,22.54,22.56,22.57,23.05,24.47,26.33,28.30,32.08,37.30,43.38,50.14,57.29,65.73,74.60,82.96,89.20,95.35,98.95,100.00);
+$datay0 = array(21.96,21.96,21.96,21.96,21.96,21.96,21.96,21.96,22.31,24.84,28.39,32.12,35.74,39.95,44.60,49.83,57.32,63.88,70.75,77.89,85.44,93.30,97.77,100.00);
 /*
 $datay3 = array(21.96,21.96,21.96,21.96,21.96,21.96,21.96,21.96,22.31,24.84,28.39,32.12,35.74,39.95,44.60,49.83,57.32,63.88,70.75,77.89,85.44,93.30,97.77,100.00);
 $datay1 = array(NULL,NULL,NULL,NULL,NULL,NULL,NULL,52.3690,52.3690,52.3790,52.5290,53.7570,55.8750,58.0120,60.9430,63.9490,66.9680,70.0940,73.1080,76.4590,80.5120,84.5970,88.6860,92.5660,96.0440,99.1930,100.0000 );
@@ -29,13 +29,13 @@ while($data = mysql_fetch_array($query)){
 	}
 }
 $aktual66 = $datam66[0] +$datam66[1]+$datam66[2]+$datam66[3]+$datam66[4]+$datam66[5]+$datam66[6];
-$aktual67 = $datam67[0] +$datam67[1]+$datam67[2]+$datam67[3]+$datam67[4]+$datam67[5]+$datam67[6];
-$aktual68 = $datam68[0] +$datam68[1]+$datam68[2]+$datam68[3]+$datam68[4]+$datam68[5]+$datam68[6];
+$aktual67 = 23;$datam67[0] +$datam67[1]+$datam67[2]+$datam67[3]+$datam67[4]+$datam67[5]+$datam67[6];
+$aktual68 = 24;$datam68[0] +$datam68[1]+$datam68[2]+$datam68[3]+$datam68[4]+$datam68[5]+$datam68[6];
 
 
 //$aktual = array(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,$aktual66,$aktual67,$aktual68,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-$aktual = array(NULL,NULL,NULL,22.50,22.50,22.50,22.50,22.50,22.50,22.54,22.63,22.79,22.89,23.00,23.00);
-$label = array('M55','M56','M57','M58','M59','M60','M61','M62','M63','M64','M65','M66','M67','M68','M69','M70','M71','M72','M73','M74','M75','M76','M77','M78','M79','M80','M81');
+$aktual = array(NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,22.00,$aktual67,$aktual68);
+$label = array('M58','M59','M60','M61','M62','M63','M64','M65','M66','M67','M68','M69','M70','M71','M72','M73','M74','M75','M76','M77','M78','M79','M80','M81');
 // Setup the graph
 $graph = new Graph(800,650);
 $graph->SetScale("textlin");
@@ -44,7 +44,7 @@ $theme_class=new UniversalTheme;
 
 $graph->SetTheme($theme_class);
 $graph->img->SetAntiAliasing(false);
-$graph->title->Set('Kurva S Rencana');
+$graph->title->Set('Kurva S Group 3');
 $graph->SetBox(false);
 
 $graph->img->SetAntiAliasing();
@@ -65,7 +65,7 @@ $p0->SetColor("#6495ED");
 $p0->mark->SetType(MARK_FILLEDCIRCLE,'',1.0);
 $p0->mark->SetColor('#55bbdd');
 $p0->mark->SetFillColor('#55bbdd');
-$p0->SetLegend('Overall');
+$p0->SetLegend('Rencana');
 $graph->legend->SetFrameWeight(1);
 /*
 $p1 = new LinePlot($datay1);
@@ -92,7 +92,7 @@ $p4->SetColor("#10000");
 $p4->mark->SetType(MARK_FILLEDCIRCLE,'',1.0);
 $p4->mark->SetColor('#55bbdd');
 $p4->mark->SetFillColor('#55bbdd');
-$p4->SetLegend('S Aktual');
+$p4->SetLegend('Aktual');
 $graph->legend->SetFrameWeight(1);
 
 // Output line
