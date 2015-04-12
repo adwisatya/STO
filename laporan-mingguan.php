@@ -143,7 +143,7 @@
 								break;
 						}
 					}else{
-						$query = mysql_query("select minggu,file from laporan_mingguan");
+						$query = mysql_query("select no,minggu,file from laporan_mingguan");
 						print '<div class="row" align="center">';
 						print '<div class="col-md-3" style="border-style:solid;">Nomor</div>';
 						print '<div class="col-md-3" style="border-style:solid;">Minggu</div>';
@@ -155,7 +155,7 @@
 							print '<div class="row" align="center">';
 							print '<div class="col-md-3" style="border-style:solid;">'.$i.'</div>';
 							print '<div class="col-md-3" style="border-style:solid;">'.$data['minggu'].'</div>';
-							print '<div class="col-md-3" style="border-style:solid;"><a href="img/laporan/'.$data['file'].'">Download</a> | Delete</div>';
+							print '<div class="col-md-3" style="border-style:solid;"><a href="img/laporan/'.$data['file'].'">Download</a> | <a href="bin/delete.php?id='.$data['no'].'">Delete</a></div>';
 							print '</div>';
 							
 							$i++;

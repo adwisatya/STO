@@ -9,8 +9,8 @@ Class File{
 		*/
 		return $query;
 	}
-	function addToDB($tanggal,$deskripsi,$gambar){
-		$sql = "INSERT INTO laporan_harian (tanggal,deskripsi,gambar) VALUES('$tanggal','$deskripsi','$gambar')";
+	function addToDB($youtube,$tanggal,$deskripsi,$gambar){
+		$sql = "INSERT INTO laporan_harian (youtube,tanggal,deskripsi,gambar) VALUES('$youtube','$tanggal','$deskripsi','$gambar')";
 		$query = mysql_query($sql);
 	}
 	function addToDB2($minggu,$file){

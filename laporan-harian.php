@@ -192,7 +192,7 @@
 								break;
 						}
 					}else{
-						$query = mysql_query("select no,tanggal from laporan_harian");
+						$query = mysql_query("select no,youtube,tanggal from laporan_harian");
 						print '<div class="row" align="center">';
 						print '<div class="col-md-3" style="border-style:solid;">Nomor</div>';
 						print '<div class="col-md-3" style="border-style:solid;">Tanggal</div>';
@@ -206,8 +206,7 @@
 							print '<div class="row" align="center">';
 							print '<div class="col-md-3" style="border-style:solid;">'.$i.'</div>';
 							print '<div class="col-md-3" style="border-style:solid;">'.$data['tanggal'].'</div>';
-							print '<div class="col-md-3" style="border-style:solid;"> &nbsp;</div>';
-
+							print '<div class="col-md-3" style="border-style:solid;">'.$data['youtube'].'</div>';
 							print '<div class="col-md-3" style="border-style:solid;"><a href="laporan-harian.php?cmd=view&id='.$data['no'].'">View</a>
 									<a href="laporan-harian.php?cmd=delete&id='.$data['no'].'"> | Delete</a>
 									<a href="laporan-harian.php?cmd=edit&id='.$data['no'].'"> | Edit</a>
