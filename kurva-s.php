@@ -110,8 +110,11 @@
                     <a href="index.php" class="list-group-item">Home</a>
 					<a href="kurva-s.php" class="list-group-item">Overall</a>
 					<a href="kurva-s.php?gid=1" class="list-group-item">Group 1</a>
+					<a href="kurva-s.php?gid=4" class="list-group-item">Group 1 Per Minggu</a>
 					<a href="kurva-s.php?gid=2" class="list-group-item">Group 2</a>
+					<a href="kurva-s.php?gid=5" class="list-group-item">Group 2 Per Minggu</a>
 					<a href="kurva-s.php?gid=3" class="list-group-item">Group 3</a>
+					<a href="kurva-s.php?gid=6" class="list-group-item">Group 3 Per Minggu</a>
 					<a href="bin/logout.php" class="list-group-item">Log Out</a>
                 </div>
             </div>
@@ -128,6 +131,15 @@
 								break;
 							case 3:
 								echo '<img src="bin/mingguan.php?gid=3" class="col-md-12"></img>';
+								break;
+							case 4:
+								echo '<img src="bin/g1.php" class="col-md-12"></img>';
+								break;
+							case 5:
+								echo '<img src="bin/g2.php" class="col-md-12"></img>';
+								break;
+							case 6:
+								echo '<img src="bin/g3.php" class="col-md-12"></img>';
 								break;
 
 						}
