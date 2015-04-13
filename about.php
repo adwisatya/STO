@@ -95,7 +95,7 @@
                 <img class="img-responsive" src="img/olympiad.JPG" alt="">
             </div>
             <div class="col-md-6">
-                <h2>Tentang BIS COTA PLTA Upper Cisokan</h2>
+                <h2>Tentang BIS COTA UPK PH 1 PLTA Upper Cisokan</h2>
                 <p>
 					Situs ini dibuat sebagai sarana untuk meningkatkan efisiensi dan efektifitas pemantauan proyek yang sedang berjalan. Situs ini dibuat sebagai pemenuhan tugas Science Technology Olimpiad (STO).
 				</p>
