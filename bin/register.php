@@ -10,8 +10,8 @@
 			$query = mysql_query("INSERT INTO user (username, password, email, active) VALUES('$username','".md5($password)."','$email','1')");
 		}
 		/* OK */
-		function delUser($username){
-			$query = mysql_query("DELETE FROM user WHERE username = '$username'");
+		function delUser($no){
+			$query = mysql_query("DELETE FROM user WHERE no = '$no'");
 		}
 		/* OK */
 		function activateUser($username){
@@ -24,7 +24,30 @@
 		/* OK */
 		function showUser(){
 			$query = mysql_query("SELECT * from user");
-			return $query;
+			echo '
+				<table width="600px">
+					<tr>
+						<td width="150px">Username</td>
+						<td width="50px">Status</td>
+						<td width="150px">Action</td>
+					</tr>
+			';
+			while($hasil = mysql_fetch_array($query)){
+				$no = $hasil['no'];
+				echo '<tr>
+					<td>'.
+						$hasil['username'].'
+					</td>
+					<td>'.
+						$hasil['status'].'
+					</td>
+					<td>
+						<a href="bin/mregister.php?cmd=del&id='.$no.'">Delete</a> | 
+						<a href="bin/mregister.php?cmd=edit&id='.$no.'">Edit</a>
+					</td>
+				</tr>';
+			}
+			echo '</table>';
 		}
 		function getData($username,$var){
 			$query = mysql_query("SELECT $var from user WHERE username='$username'");

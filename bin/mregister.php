@@ -2,19 +2,21 @@
 	require_once("register.php");
 	$registrator = new Register();
 	
-	switch ($_GET['id']){
-		case 1: 	
+	switch ($_GET['cmd']){
+		case "add": 	
 				$username = 	$_POST['username'];
 				$password =		$_POST['password'];
 				$email	= 	$_POST['email'];
 				$registrator->addUser($username,$password,$email);
 				header("location: ../login.php");
 				break;
-		case 2: 
-				$username = 	$_POST['username'];
-				$registrator->activateUser($username);
+		case "del": 
+				$no = 	$_GET['id'];
+				$registrator->delUser($no);
+				header("location: ../admin.php");
+
 				break;
-		case 3:
+		case "edit":
 				$username = 	$_POST['username'];
 				$password =		$_POST['password'];
 				$email	= 	$_POST['email'];
