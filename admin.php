@@ -120,6 +120,15 @@
 					if(isset($_GET['cmd'])){
 						switch ($_GET['cmd']){
 							case "add":
+							echo '<form method="post" action="bin/mregister.php?cmd=add">
+								<input type="text" name ="username" placeholder="username">
+								<input type="password" name="password" placeholder="password">
+								<select name="status">
+									<option value="9">admin</option>
+									<option value="1">upk</option>
+								</select>
+								<input type="submit" name="submit" value="Add User">
+							</form>';
 								break;
 							default:
 								$registrator =  new Register();

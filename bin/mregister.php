@@ -6,9 +6,10 @@
 		case "add": 	
 				$username = 	$_POST['username'];
 				$password =		$_POST['password'];
-				$email	= 	$_POST['email'];
-				$registrator->addUser($username,$password,$email);
-				header("location: ../login.php");
+				$status = $_POST['status'];
+				print $username." ".$password." ".$status;
+				$registrator->addUser($username,$password,$status);
+				header("location: ../admin.php");
 				break;
 		case "del": 
 				$no = 	$_GET['id'];

@@ -6,8 +6,8 @@
 	}
 	Class Register{
 		/* OK */
-		function addUser($username, $password, $email){
-			$query = mysql_query("INSERT INTO user (username, password, email, active) VALUES('$username','".md5($password)."','$email','1')");
+		function addUser($username, $password, $status){
+			$query = mysql_query("INSERT INTO user (username, password, status) VALUES('$username','$password','$status')");
 		}
 		/* OK */
 		function delUser($no){
