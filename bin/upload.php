@@ -13,7 +13,7 @@
 		//echo "<script>alert('File Uploaded Successfully');</script>";
 		header("location: ../laporan-harian.php");
 	}else{
-		$fileHandler->addToDB($tanggal,$deskripsi," ");
+		$fileHandler->addToDB($youtube, $tanggal,$deskripsi," ");
 
 		header("location: ../laporan-harian.php");
 
